@@ -1,27 +1,33 @@
-/* Type selector */
+/* Page background */
 body {
-    background-color: #f4f6f8;
+    background-color: #e6f2fa;  /* soft light blue */
     color: #1f2a44;
     font-size: 1rem;
 }
 
-/* Type selector */
+/* Main name header */
 h1 {
-    color: #1b4f72;
-    font-size: 2rem;
+    background-color: #1b4f72;  /* dark blue */
+    color: white;
+    font-size: 2.2rem;
 }
 
-/* Class selector */
-.section-title {
-    color: #2874a6;
+/* Section headings */
+h2 {
+    color: #154360;
 }
 
-/* ID selector */
+/* Navigation background */
+nav {
+    background-color: #5dade2;  /* medium blue */
+}
+
+/* Navigation links */
+nav a {
+    color: white;
+}
+
+/* Optional: make intro section slightly highlighted */
 #site-intro {
     background-color: #d6eaf8;
-}
-
-/* Descendant selector */
-nav a {
-    color: #154360;
 }
