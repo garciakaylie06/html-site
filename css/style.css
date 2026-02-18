@@ -1,0 +1,27 @@
+/* Type selector */
+body {
+    background-color: #f4f6f8;
+    color: #1f2a44;
+    font-size: 1rem;
+}
+
+/* Type selector */
+h1 {
+    color: #1b4f72;
+    font-size: 2rem;
+}
+
+/* Class selector */
+.section-title {
+    color: #2874a6;
+}
+
+/* ID selector */
+#site-intro {
+    background-color: #d6eaf8;
+}
+
+/* Descendant selector */
+nav a {
+    color: #154360;
+}
