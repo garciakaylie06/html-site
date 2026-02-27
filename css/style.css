@@ -1,3 +1,4 @@
+
 /* Page background */
 body {
     background-color: #e6f2fa;  /* soft light blue */
@@ -30,4 +31,43 @@ nav a {
 /* Optional: make intro section slightly highlighted */
 #site-intro {
     background-color: #d6eaf8;
+}
+main {
+  width: 90%;
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  border: 2px solid #154360;
+}
+
+section {
+  margin: 1.5rem 0;
+  padding: 1rem;
+  border: 1px solid #154360;
+}
+
+p {
+  margin: 0.75rem 0;
+  padding: 0.5rem 0.75rem;
+  border-left: 4px solid #154360;
+}
+
+.parent-box {
+  width: 300px;
+  padding: 1rem;
+  border: 2px solid #154360;
+  margin: 1rem 0;
+}
+
+.child-default {
+  width: 100%;
+  padding: 1.5rem;
+  border: 2px solid #154360;
+}
+
+.child-borderbox {
+  width: 100%;
+  padding: 1.5rem;
+  border: 2px solid #154360;
+  box-sizing: border-box;
 }
