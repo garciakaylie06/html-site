@@ -150,3 +150,19 @@ p {
   margin: 1rem auto;
   border-radius: 12px;
 }
+.about-layout {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.about-text {
+  flex: 2;
+  min-width: 250px;
+}
+
+.about-side {
+  flex: 1;
+  min-width: 220px;
+}
