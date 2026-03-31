@@ -91,12 +91,20 @@ h2 {
 
 /* Navigation background */
 nav {
-    background-color: #5dade2;  /* medium blue */
+    background-color: #1b4f72;
 }
 
 /* Navigation links */
 nav a {
     color: white;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  padding: 0.75rem 1rem;
+  margin: 0;
 }
 
 /* Optional: make intro section slightly highlighted */
