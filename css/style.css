@@ -174,3 +174,16 @@ p {
   flex: 1;
   min-width: 220px;
 }
+main > section {
+  background-color: #ffffff;
+}
+
+.about-side {
+  border: 3px dashed #154360;
+  padding: 1rem;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
